@@ -20,10 +20,10 @@ h2 {
     font-weight: 900;
 }
 
-/* h3 {
+* h3 {
   font-size: 1.5rem;
   font-weight: 900;
-} */
+} 
 
 p {
     background-color: #fff;
@@ -58,7 +58,6 @@ p {
     text-align: center;
 }
 
-.white-section {}
 
 /* navbar */
 .navbar-brand {
@@ -149,9 +148,9 @@ p {
     margin: 20px;
 }
 
-/* .carousel-item {
+ .carousel-item {
   padding: 7% 15%;
-} */
+} 
 
 .press-logo {
     width: 15%;
@@ -176,13 +175,12 @@ p {
     background-color: white;
     position: relative;
     bottom: 100px;
-
 }
 
 
 /* press */
 #press {
-    /* background-color: #ef8172; */
+    background-color: #ef8172; 
     padding-bottom: 3%;
 }
 
