@@ -41,7 +41,7 @@ p {
     line-height: 1.5;
     font-weight: 900;
     color: black;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -50,9 +50,11 @@ p {
     line-height: 1.5;
 }
 
-.container-fluid {
+.container-fluid-header {
     padding: 3% 15% 15%;
+    
 }
+
 
 /* sections */
 .color-section {
@@ -62,14 +64,17 @@ p {
 
 
 /* navbar */
-.navbar-brand {
+a.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
+    left: 25px;
+    margin: 0 auto;
 }
 
 .navbar {
     padding: 0 0 4.5rem;
+    
 }
 
 .nav-item {
@@ -79,6 +84,8 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
+    
+    
 }
 
 .col-lg-6 {
@@ -91,10 +98,11 @@ p {
 }
 
 .title-image {
-    width: 60%;
+    width: 40%;
     transform: rotate(25deg);
     position: absolute;
-    right: 30%;
+    right: 25%;
+    bottom: -170%;
     z-index: 0; 
 }
 
@@ -135,8 +143,7 @@ p {
 }
 
 .feature-box {
-    padding-top: 350px;
-    padding-bottom: 25px;
+    padding-top: 100px;
     background-color: white;
     text-align: center;
     font-size:2rem;
@@ -225,9 +232,33 @@ p {
     background-color: #fff;
     color: grey;
     font-size: 1rem;
-    padding-top: 5%;
-    padding-bottom: 5%;
     text-align: center;
+    
+    
+}
+
+.big-heading-header {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+    text-align: left;
+}
+
+
+.big-heading {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+
+
+.container-fluid-footer {
+    padding-bottom: 0;
 }
 
 i {
@@ -243,5 +274,6 @@ i {
     .title-image {
         position: static;
         transform: rotate(0deg);
+        
     }
 }
